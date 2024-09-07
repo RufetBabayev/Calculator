@@ -58,6 +58,9 @@ function calc() {
       break;
   }
   display.textContent = res;
+  firstValue = res;
+  secondValue = "";
+  operand = "";
 }
 
 // del.addEventListener("click", deleteDisplay);
