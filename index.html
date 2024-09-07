@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="flex justify-center items-center h-screen">
+      <div class="w-60 bg-slate-400 border border-transparent rounded-md">
+        <div
+          id="display"
+          class="w-full size-12 p-1 bg-black/80 text-white rounded-t-md"
+        ></div>
+        <div
+          id="buttons"
+          class="grid grid-cols-4 place-items-center gap-1 my-1"
+        >
+          <button
+            id="del"
+            class="size-full rounded-full bg-gray-500 col-span-2"
+          >
+            AC
+          </button>
+          <button class="size-12 rounded-full bg-gray-500 btn">%</button>
+          <button
+            class="size-12 rounded-full bg-orange-500 text-white btn operand"
+          >
+            /
+          </button>
+          <button class="size-12 rounded-full bg-black/80 text-white btn">
+            7
+          </button>
+          <button class="size-12 rounded-full bg-black/80 text-white btn">
+            8
+          </button>
+          <button class="size-12 rounded-full bg-black/80 text-white btn">
+            9
+          </button>
+          <button
+            class="size-12 rounded-full bg-orange-500 text-white btn operand"
+          >
+            x
+          </button>
+          <button class="size-12 rounded-full bg-black/80 text-white btn">
+            4
+          </button>
+          <button class="size-12 rounded-full bg-black/80 text-white btn">
+            5
+          </button>
+          <button class="size-12 rounded-full bg-black/80 text-white btn">
+            6
+          </button>
+          <button
+            class="size-12 rounded-full bg-orange-500 text-white btn operand"
+          >
+            -
+          </button>
+          <button class="size-12 rounded-full bg-black/80 text-white btn">
+            1
+          </button>
+          <button class="size-12 rounded-full bg-black/80 text-white btn">
+            2
+          </button>
+          <button class="size-12 rounded-full bg-black/80 text-white btn">
+            3
+          </button>
+          <button
+            class="size-12 rounded-full bg-orange-500 text-white btn operand"
+          >
+            +
+          </button>
+          <button class="size-12 rounded-full bg-black/80 text-white btn">
+            0
+          </button>
+          <button
+            id="point"
+            class="size-12 rounded-full bg-black/80 text-white btn"
+          >
+            .
+          </button>
+          <button
+            class="col-span-2 size-full rounded-full bg-orange-500 text-white"
+            id="equal"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
